@@ -28,7 +28,7 @@ int main()
         if (keystroke == windows_key_down || keystroke == windows_key_up)
         {
             std::cout << "Blocking key success.\n";
-            continue; // skip kirim ke sistem
+            continue; 
         }
 
         interception_send(context, device, &stroke, 1);
