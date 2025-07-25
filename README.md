@@ -30,7 +30,7 @@ I was try disabling win key with registry and many kind software, and still noth
 
 > For make sure your Interception Driver installed properly
   - Open Command Prompt
-  - Type this command "driverquery | findstr /i keyb"
+  - Type this command `driverquery | findstr /i keyb`
   - If you see "keyboard - Keyboard Upper Filter" that mean Interception Driver already installed
 ![Preview](https://raw.githubusercontent.com/hybridrev/win-key-block/refs/heads/main/img/Screenshot%202025-07-25%20202605.jpg)
 
