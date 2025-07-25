@@ -19,6 +19,7 @@ int main()
 
     interception_set_filter(context, interception_is_keyboard, INTERCEPTION_FILTER_KEY_ALL);
 
+    std::cout << "Interception FIlter by AbenDoesn't.\n";
     std::cout << "Interception FIlter Debug active. Waiting for input...\n";
 
     while (interception_receive(context, device = interception_wait(context), &stroke, 1) > 0)
