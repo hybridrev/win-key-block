@@ -1,7 +1,7 @@
 # Win Key Block
 
-I don't know is this kind a stupid stuff? But actually i can fix my problem with this, so this is C++ program that blocks the **Windows key** at the **kernel level** using [Interception Driver](https://github.com/oblitum/Interception).  
-Useful for thing if you experiencing **keyboard flooding (in the case is me)** due to hardware faults that cause the Windows key to trigger randomly. 
+This is just a random program i made, so i don't know is this kind a stupid stuff? But actually i successfully fix my problem with this, so this is C++ program that blocks the **Windows key** at the **kernel level** using [Interception Driver](https://github.com/oblitum/Interception).  
+Useful if you experiencing **keyboard flooding (in the case is me)** due to hardware faults that cause the Windows key to trigger randomly. 
 
 ### Speaking about a problem
 My laptop win key have flood issue. Not only that, this flood error can cause your Windows system freeze and Blue Screen.
@@ -68,7 +68,7 @@ cl intercept-debug.cpp /I library library\interception.lib
 ## Credits
 **Thanks for:**
   - [Interception Driver by @oblitum](https://github.com/oblitum/Interception)
-  - [Stackoverflow User from 15 years ago](https://stackoverflow.com/questions/3270434/how-do-i-intercept-windows-key-under-windows-7/8844117#8844117) (Thank you so much i love you) 
+  - [Stackoverflow User from 15 years ago](https://stackoverflow.com/questions/3270434/how-do-i-intercept-windows-key-under-windows-7/8844117#8844117)
 
 ---
 © 2025 AbenDoesn't
