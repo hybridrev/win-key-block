@@ -7,8 +7,6 @@ Useful if you experiencing **keyboard flooding (in the case is me)** due to hard
 My laptop win key have flood issue. Not only that, this flood error can cause your Windows system freeze and Blue Screen.
 I was try disabling win key with registry and many kind software, and still nothing the Windows still crashing in couple minutes so that why i made this program.
 
----
-
 ## Anyway, what a program actually do?
 
 - Blocks the **Win key** completely from the Windows system
@@ -16,8 +14,6 @@ I was try disabling win key with registry and many kind software, and still noth
 - Effectively solution for **Flooding error at fcking Win key** without disabling the internal keyboard so you still can use internal keyboard
 - Can fix Windows crashing (Hell yeah dude) 
 - And you actually can modified your own in .cpp code
-
----
 
 ## How to use
 
@@ -45,8 +41,6 @@ I was try disabling win key with registry and many kind software, and still noth
 - Run `add-to-startup.bat` to create a shortcut in the **All Users** Startup folder  
 - This allows the app to automatically run every time Windows boots
 
----
-
 ## Build
 
 **Requirements:**
@@ -63,12 +57,9 @@ cl intercept.cpp /I library library\interception.lib /link /SUBSYSTEM:WINDOWS
 cl intercept-debug.cpp /I library library\interception.lib
 ```
 
----
-
 ## Credits
 **Thanks for:**
   - [Interception Driver by @oblitum](https://github.com/oblitum/Interception)
   - [Stackoverflow User from 15 years ago](https://stackoverflow.com/questions/3270434/how-do-i-intercept-windows-key-under-windows-7/8844117#8844117)
 
----
 © 2025 AbenDoesn't
